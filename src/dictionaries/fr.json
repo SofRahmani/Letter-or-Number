@@ -1,31 +1,34 @@
 {
   "navigation": {
     "home": "Accueil",
-    "iorl": "I ou L",
-    "Ooro": "0 ou O",
+    "iorl": "I ou L?",
+    "Ooro": "0 ou O?",
     "search": "Rechercher"
   },
 
   "page": {
     "home": {
-      "title": "Bienvenue sur la page d'accueil",
-      "content": "Ceci est le contenu de la page d'accueil"
+      "title": "Optimisez votre",
+      "title2": " lisibilité",
+      "content": "Notre site web simplifie la différenciation entre O et 0, ainsi qu'entre I et L, pour une expérience de lecture plus fluide"
     },
-    "docs": {
-      "title": "Bienvenue sur la page de documentation",
-      "content": "Ceci est le contenu de la page de documentation"
+    "iorl": {
+      "title": "I ou L?",
+      "content": "Ceci est le contenu de la page I ou L?"
     },
-    "pricing": {
-      "title": "Bienvenue sur la page de tarification",
-      "content": "Ceci est le contenu de la page de tarification"
-    },
-    "blog": {
-      "title": "Bienvenue sur la page de blog",
-      "content": "Ceci est le contenu de la page de blog"
-    },
-    "about": {
-      "title": "Bienvenue sur la page à propos de nous",
-      "content": "Ceci est le contenu de la page à propos de nous"
+    "Ooro": {
+      "title": "Est-ce un ",
+      "O": "O",
+      "or": " ou un ",
+      "0": "0",
+      "question": " ?",
+      "content": "Difficile de différencier entre O et 0 ? Pas de soucis, nous avons la solution!\n\n Collez simplement le texte dans la zone de texte ci-dessous et nous vous dirons si c'est un O ou un 0."
     }
+  },
+
+  "convert": {
+    "label": "Convertissez votre texte:",
+    "placeholder": "Collez votre texte ici",
+    "result": "Résultat:"
   }
 }
