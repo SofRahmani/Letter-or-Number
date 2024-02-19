@@ -7,6 +7,8 @@ import { siteConfig } from "../../config/site";
 import "../../styles/globals.css";
 import { Navbar } from "./components/navbar";
 import { Providers } from "./providers";
+import { Toaster } from 'sonner';
+
 
 export const metadata: Metadata = {
   title: {
@@ -53,6 +55,7 @@ export default function RootLayout({
               </Link>
             </footer>
           </div>
+          <Toaster />
         </Providers>
       </body>
     </html>
