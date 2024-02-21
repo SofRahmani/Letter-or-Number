@@ -2,7 +2,7 @@
   "navigation": {
     "home": "Home",
     "iorl": "I or L?",
-    "Ooro": "0 or O?",
+    "Ooro": "O or 0?",
     "search": "Search"
   },
 
@@ -13,8 +13,12 @@
       "content": "Our website streamlines the differentiation between O and 0, as well as between I and L, for a smoother reading experience"
     },
     "iorl": {
-      "title": "I or L?",
-      "content": "This is the I or L? page content"
+      "title": "Is it an ",
+      "I": "i",
+      "or": " or a ",
+      "L": "L",
+      "question": " ?",
+      "content": "Difficult to differentiate between I and L ? No problem, we have the solution! Just paste the text in the box below, and we'll tell you if it's an I or a L."
     },
     "Ooro": {
       "title": "Is it an ",
