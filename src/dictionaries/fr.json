@@ -2,15 +2,18 @@
   "navigation": {
     "home": "Accueil",
     "iorl": "I ou L?",
-    "Ooro": "O ou 0?",
-    "search": "Rechercher"
+    "Ooro": "O ou 0?"
   },
 
   "page": {
     "home": {
       "title": "Optimisez votre",
       "title2": " lisibilité",
-      "content": "Notre site web simplifie la différenciation entre O et 0, ainsi qu'entre I et L, pour une expérience de lecture plus fluide"
+      "content": "Mon site web simplifie la différenciation entre O et 0, ainsi qu'entre I et L, pour une expérience de lecture plus fluide",
+
+      "why": "Pourquoi j'ai créé ce site web ?",
+      "whyContent": "Au cours de ma carrière d'expert logiciel, j'ai eu de nombreux clients qui se plaignaient de la difficulté à différencier entre O et 0, ainsi qu'entre I et L. J'ai donc décidé de créer ce site web pour aider les gens à résoudre ce problème. J'espère que vous trouverez ce site web utile !",
+      "star": "N'hésitez pas à laisser une étoile sur mon projet GitHub si vous l'appréciez !"
     },
     "iorl": {
       "title": "Est-ce un ",
@@ -18,7 +21,7 @@
       "or": " ou un ",
       "L": "L",
       "question": " ?",
-      "content": "Difficile de différencier entre I et L ? Pas de soucis, nous avons la solution!\n\n Collez simplement le texte dans la zone de texte ci-dessous et nous vous dirons si c'est un I ou un L."
+      "content": "Difficile de différencier entre I et L ? Pas de soucis, j'ai la solution!\n\n Collez simplement le texte dans la zone de texte ci-dessous et je vous dirai si c'est un I ou un L."
     },
     "Ooro": {
       "title": "Est-ce un ",
@@ -26,7 +29,7 @@
       "or": " ou un ",
       "0": "0",
       "question": " ?",
-      "content": "Difficile de différencier entre O et 0 ? Pas de soucis, nous avons la solution!\n\n Collez simplement le texte dans la zone de texte ci-dessous et nous vous dirons si c'est un O ou un 0."
+      "content": "Difficile de différencier entre O et 0 ? Pas de soucis, j'ai la solution!\n\n Collez simplement le texte dans la zone de texte ci-dessous et je vous dirai si c'est un O ou un 0."
     }
   },
 
@@ -34,5 +37,10 @@
     "label": "Convertissez votre texte:",
     "placeholder": "Collez votre texte ici",
     "result": "Résultat:"
+  },
+
+  "footer": {
+    "content": "Ce site web a été créé par ",
+    "tooltip": "Lien vers mon profil GitHub"
   }
 }

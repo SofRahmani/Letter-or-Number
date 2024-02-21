@@ -2,15 +2,18 @@
   "navigation": {
     "home": "Home",
     "iorl": "I or L?",
-    "Ooro": "O or 0?",
-    "search": "Search"
+    "Ooro": "O or 0?"
   },
 
   "page": {
     "home": {
       "title": "Enhance",
       "title2": " readability",
-      "content": "Our website streamlines the differentiation between O and 0, as well as between I and L, for a smoother reading experience"
+      "content": "My website streamlines the differentiation between O and 0, as well as between I and L, for a smoother reading experience",
+
+      "why": "Why i've created this website?",
+      "whyContent": "During my software expert career, I've had numerous clients who complained about the difficulty in distinguishing between O and 0, as well as between I and L. Therefore, I decided to create this website to help people address this issue. I hope you find this website helpful!",
+      "star": "Feel free to leave a star on my GitHub project if you appreciate it !"
     },
     "iorl": {
       "title": "Is it an ",
@@ -18,7 +21,7 @@
       "or": " or a ",
       "L": "L",
       "question": " ?",
-      "content": "Difficult to differentiate between I and L ? No problem, we have the solution! Just paste the text in the box below, and we'll tell you if it's an I or a L."
+      "content": "Difficult to differentiate between I and L ? No problem, I have the solution! Just paste the text in the box below, and I'll tell you if it's an I or a L."
     },
     "Ooro": {
       "title": "Is it an ",
@@ -26,7 +29,7 @@
       "or": " or a ",
       "0": "0",
       "question": " ?",
-      "content": "Difficult to differentiate between O and 0 ? No problem, we have the solution! Just paste the text in the box below, and we'll tell you if it's an O or a 0."
+      "content": "Difficult to differentiate between O and 0 ? No problem, I have the solution! Just paste the text in the box below, and I'll tell you if it's an O or a 0."
     }
   },
 
@@ -34,5 +37,10 @@
     "label": "Convert your text:",
     "placeholder": "Paste your text here",
     "result": "Result:"
+  },
+
+  "footer": {
+    "content": "This website was created by ",
+    "tooltip": "View my GitHub profile"
   }
 }
