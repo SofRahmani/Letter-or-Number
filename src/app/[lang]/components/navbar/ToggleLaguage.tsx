@@ -25,7 +25,7 @@ export function ToggleLaguage() {
               size="sm"
               variant="bordered"
             >
-              {locale}
+              {locale.toUpperCase()}
             </Button>
           </Link>
         );
