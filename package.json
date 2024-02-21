@@ -1,6 +1,8 @@
 {
-  "name": "next-app-template",
-  "version": "0.0.1",
+  "name": "letter-or-number",
+  "version": "1.0.0",
+  "author": "Sofiane Rahmani",
+  "description": "A simple application to check if a string is a letter or a number",
   "private": true,
   "scripts": {
     "dev": "next dev",
