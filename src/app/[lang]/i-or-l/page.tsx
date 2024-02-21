@@ -14,7 +14,7 @@ export default async function IOrL({ params }: { params: { lang: Locale } }) {
           {page.iorl.or} <span className={title({ color: "red" })}>{page.iorl.L}</span>{" "}
           {page.iorl.question}{" "}
         </h1>
-        <h2 className={`${subtitle()} text-pretty`}>{page.iorl.content}</h2>
+        <h2 className={`${subtitle()} text-balance`}>{page.iorl.content}</h2>
       </div>
       <TextConverterI
         lang={params.lang}

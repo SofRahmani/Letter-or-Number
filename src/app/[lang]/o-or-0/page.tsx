@@ -14,7 +14,7 @@ export default async function Oor0({ params }: { params: { lang: Locale } }) {
           {page.Ooro.or} <span className={title({ color: "red" })}>{page.Ooro[0]}</span>{" "}
           {page.Ooro.question}{" "}
         </h1>
-        <h2 className={`${subtitle()} text-pretty`}>{page.Ooro.content}</h2>
+        <h2 className={`${subtitle()} text-balance`}>{page.Ooro.content}</h2>
       </div>
       <TextConverterO
         lang={params.lang}
