@@ -1,13 +1,13 @@
 import { Locale } from "@/i18n.config";
 import { getDictionary } from "@/src/lib/dictionary";
-import TextConverter from "../components/TextConverter";
+import TextConverterO from "../components/TextConverterO";
 import { subtitle, title } from "../components/primitives";
 
-export default async function BlogPage({ params }: { params: { lang: Locale } }) {
+export default async function Oor0({ params }: { params: { lang: Locale } }) {
   const { page, convert } = await getDictionary(params.lang);
 
   return (
-    <div className=' flex flex-col gap-6 '>
+    <div className=" flex flex-col gap-6 ">
       <div>
         <h1 className={title()}>
           {page.Ooro.title} <span className={title({ color: "green" })}>{page.Ooro.O}</span>{" "}
@@ -16,7 +16,12 @@ export default async function BlogPage({ params }: { params: { lang: Locale } })
         </h1>
         <h2 className={`${subtitle()} text-pretty`}>{page.Ooro.content}</h2>
       </div>
-      <TextConverter lang={params.lang} label={convert.label} placeholder={convert.placeholder} labelResult={convert.result} />
+      <TextConverterO
+        lang={params.lang}
+        label={convert.label}
+        placeholder={convert.placeholder}
+        labelResult={convert.result}
+      />
     </div>
   );
 }
