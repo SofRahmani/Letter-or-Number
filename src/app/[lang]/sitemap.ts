@@ -15,13 +15,13 @@ export default function sitemap(): MetadataRoute.Sitemap {
       priority: 1,
     },
     {
-      url: 'https://acme.https://www.letter-or-number.com/en/o-or-0/about',
+      url: 'https://www.letter-or-number.com/en/o-or-0',
       lastModified: new Date(),
       changeFrequency: 'yearly',
       priority: 0.8,
     },
     {
-      url: 'https://acme.https://www.letter-or-number.com/fr/o-or-0/about',
+      url: 'https://www.letter-or-number.com/fr/o-or-0',
       lastModified: new Date(),
       changeFrequency: 'yearly',
       priority: 0.8,
