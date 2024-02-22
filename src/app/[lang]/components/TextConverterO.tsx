@@ -53,7 +53,7 @@ export default function TextConverterO({
         lang={lang}
         size="lg"
         radius="sm"
-        maxLength={1000}
+        maxLength={2000}
         minRows={10}
         onChange={e => setValue(e.target.value)}
       />
