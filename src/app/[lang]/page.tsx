@@ -7,7 +7,7 @@ export default async function Home({ params }: { params: { lang: Locale } }) {
   const { page } = await getDictionary(params.lang);
 
   return (
-    <section className="flex flex-col items-center justify-center gap-12 py-8 md:py-10">
+    <section className="flex flex-col items-center justify-center gap-12 py-8 md:py-10 overflow-hidden">
       <div className="inline-block max-w-4xl justify-center text-center">
         <h1 className={title()}>
           {page.home.title}
