@@ -56,7 +56,7 @@ export default function TextConverterI({
         minRows={10}
         onChange={e => setValue(e.target.value)}
       />
-      <div className=" max-h-[500px] min-h-[236px] w-full overflow-scroll text-wrap rounded-md bg-[#f4f4f5] px-3 py-2 text-justify dark:bg-[#27272a] md:w-[50%] ">
+      <div className=" max-h-[500px] min-h-[236px] w-full overflow-scroll text-wrap rounded-md bg-[#f4f4f5] px-3 py-2 text-justify dark:bg-[#27272a] md:w-[50%] overscroll-none ">
         <div className=" flex h-full w-full flex-wrap content-start gap-1 overflow-x-hidden overflow-y-scroll text-wrap text-justify ">
           {changeColor(value)}
         </div>
