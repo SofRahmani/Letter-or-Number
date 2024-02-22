@@ -18,7 +18,7 @@ export default function TextConverterO({
   const [value, setValue] = useState("");
 
   const changeColor = (text: string) => {
-    const words = text.split(" ");
+    const words = text.split(/\s+/);
 
     const coloredWords = words.map((word, wordIndex) => {
       const letters = word.split("").map((letter, index) => {
