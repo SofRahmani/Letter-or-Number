@@ -2,7 +2,8 @@
   "navigation": {
     "home": "Home",
     "iorl": "I or L?",
-    "Ooro": "O or 0?"
+    "Ooro": "O or 0?",
+    "test": "Test"
   },
 
   "page": {
